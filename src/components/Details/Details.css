@@ -1,0 +1,39 @@
+.details{
+	width:100%;
+/*    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;*/
+}
+
+
+
+.details ul{
+	list-style-type: none;
+	float:left;
+/*	margin:0;
+	position:relative;
+    left:50%;*/
+
+}
+
+.details li{
+    display: inline;
+    float:left;
+    margin:6%;
+    display:block;
+    width:20%;
+
+}
+
+.details img{
+	display: block;
+    margin: auto;
+	height:100px;
+	width:100px;
+	margin-bottom:20px;
+}
+
+.details h4{
+	text-align:center;
+}

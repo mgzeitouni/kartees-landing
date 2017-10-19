@@ -1,0 +1,28 @@
+.header{
+  display: inline;
+  vertical-align: middle;
+  margin-left:5%;
+/*  margin-right:10%;*/
+}
+
+.navbarBlock{
+
+ float:right;
+ margin-right: 10%;
+
+}
+.navbar {
+    list-style-type: none;
+    margin: 0 auto;
+   /* padding-top: 20px;*/
+    
+
+}
+
+.navbar li{
+    display: inline;
+    margin:10%;
+    font-family: .SFNSDisplay;
+    font-size: 24px;
+    color: #929292;
+}

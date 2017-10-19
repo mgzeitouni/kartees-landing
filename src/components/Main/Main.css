@@ -1,0 +1,40 @@
+.mainSection{
+	text-align:center;
+	width:70%;
+	margin:0 auto;
+}
+
+.mainSection h1{
+
+	font-family: .SFNSDisplay;
+	font-size: 48px;
+	color: #515C91;
+	line-height: 74px;
+
+}
+
+.mainSection h2{
+
+	font-family: .SFNSDisplay;
+	font-size: 24px;
+	color: #393939;
+	line-height: 43px;
+}
+
+.emailInput {
+
+	background: #FFFFFF;
+	border: 2px solid #979797;
+	border-radius: 8px;
+
+}
+
+.submit {
+	background: #515C91;
+	border: 2px solid #979797;
+	border-radius: 8px;
+	font-family: .SFNSDisplay;
+	/*font-size: 24px;*/
+	color: #FFFFFF;
+}
+
