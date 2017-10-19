@@ -7,6 +7,19 @@ import Main from '../Main/Main.js'
 import {Details} from '../Details/Details.js';
 import {Demo} from '../Demo/Demo.js';
 
+if (process.env.VCAP_SERVICES){
+
+  console.log('In App.js');
+  var myvar= process.env.myVarName;
+  console.log(myvar);
+
+  console.log(process.env.VCAP_SERVICES);
+}else{
+  console.log('nope not found in app.js');
+}
+
+
+
 class App extends Component {
   render() {
     return (

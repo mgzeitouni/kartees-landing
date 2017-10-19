@@ -1,7 +1,7 @@
 import './Main.css';
-
 import React, { Component } from 'react';
 
+var request = new XMLHttpRequest();
 
 class Main extends Component {
 
@@ -18,10 +18,17 @@ class Main extends Component {
   	}
 
   	handleSubmit(event) {
-    	alert('A name was submitted: ' + this.state.email);
-    	event.preventDefault();
-  	}
 
+  		var data = new FormData();
+		data.append("email", this.state.email);
+
+		request.open('POST', 'http://127.0.0.1:5000/new-email', true);
+		request.setRequestHeader("cache-control", "no-cache");
+		request.send(data);
+
+    	event.preventDefault();
+
+    }
 
   	render(){
 		
@@ -32,11 +39,12 @@ class Main extends Component {
 					<h2>Kartees uses AI to manage and sell your season tickets for optimal profits. Enter your email address if you'd like to become an early user!</h2>
 
 					<br/>
+
 					<form onSubmit={this.handleSubmit}>
 				 
-				         <input className = "emailInput" type="text" placeholder = "Email" value={this.state.email} onChange={this.handleChange} />
-				        
-				        <input className = "submit" type="submit" value="Sign Up" />
+				        <input className = "emailInput" type="text" placeholder = "Email" value={this.state.email} onChange={this.handleChange} />
+				       
+				        <button type="submit" value="Sign Up">Sign Up </button>
 
 				    </form>
 

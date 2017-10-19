@@ -26,15 +26,26 @@
 	background: #FFFFFF;
 	border: 2px solid #979797;
 	border-radius: 8px;
+	font-family: .SFNSDisplay;
+	font-size: 24px;
+	color: #929292;
+	margin-right: 15px;
 
 }
 
-.submit {
+/* webkit solution */
+::-webkit-input-placeholder { padding-left:3%; }
+/* mozilla solution */
+input:-moz-placeholder { padding-left:3%; }
+
+.mainSection button {
+
 	background: #515C91;
 	border: 2px solid #979797;
 	border-radius: 8px;
 	font-family: .SFNSDisplay;
-	/*font-size: 24px;*/
+	font-size: 24px;
 	color: #FFFFFF;
 }
+
 
