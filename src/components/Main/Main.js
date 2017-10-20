@@ -26,6 +26,7 @@ class Main extends Component {
 		request.setRequestHeader("cache-control", "no-cache");
 		request.send(data);
 
+		alert('Email ' + this.state.email +' Sent!');
     	event.preventDefault();
 
     }
