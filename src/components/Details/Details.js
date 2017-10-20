@@ -6,7 +6,7 @@ var Element    = Scroll.Element;
 export const Details = () =>  {
 
 	return (
-		<Element name="services" className="element">
+		<Element name="services" className="servicesElement">
 
 			<div className="details">
 				<ul>

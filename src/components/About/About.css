@@ -1,0 +1,29 @@
+.aboutElement{
+/*	width:100%;*/
+	height:600px;
+	width:50%;
+	margin:0 auto;
+	
+}
+
+.aboutElement img{
+	width:200px;
+	height:200px;
+
+}
+.aboutElement ul{
+	list-style-type: none;
+	float:left;
+}
+
+.aboutElement li{
+    display: inline;
+    float:left;
+/*    margin-top:0px;
+    margin-right:10%;
+    margin-left:10%;*/
+
+/*    display:block;*/
+    width:100px;
+
+}

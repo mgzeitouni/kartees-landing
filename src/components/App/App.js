@@ -5,6 +5,7 @@ import Header from '../Header/Header.js';
 import Main from '../Main/Main.js'
 import {Details} from '../Details/Details.js';
 import {Demo} from '../Demo/Demo.js';
+import {About} from '../About/About.js';
 
 if (process.env.VCAP_SERVICES){
 
@@ -33,6 +34,8 @@ class App extends Component {
           <Main/>
           <br/>
           <Details/>
+   
+          <About/>
   
       </div>
       </div>

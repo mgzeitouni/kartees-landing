@@ -42,8 +42,8 @@ opacity:0.8;
 
 .navbar li{
     display: inline;
-    margin:10%;
-    font-family: Helvetica;
+    margin:15%;
+/*    font-family: Helvetica;*/
     font-size: 20px;
     color: #929292;
 }

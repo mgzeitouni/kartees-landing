@@ -27,8 +27,8 @@ class Header extends Component {
                             <div className = "navbarBlock">
                                 <ul className = "navbar">
                                     
-                                    <li><Link activeClass="active" to="services" spy={true} smooth={true} offset={-20} duration={500} onSetActive={this.handleSetActive}>Services</Link></li>
-                                    <li><Link activeClass="active" to="aboutus" spy={true} smooth={true} offset={-20} duration={500} onSetActive={this.handleSetActive}>About Us</Link></li>
+                                    <li><Link activeClass="active" to="services" spy={true} smooth={true} offset={-20} duration={500} >Services</Link></li>
+                                    <li><Link activeClass="active" to="aboutus" spy={true} smooth={true} offset={-20} duration={500} >About Us</Link></li>
    
 
                                 </ul>
