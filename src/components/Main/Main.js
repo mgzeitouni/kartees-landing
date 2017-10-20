@@ -22,7 +22,7 @@ class Main extends Component {
   		var data = new FormData();
 		data.append("email", this.state.email);
 
-		request.open('POST', 'http://127.0.0.1:5000/new-email', true);
+		request.open('POST', 'https://kartees-landing-page-services.mybluemix.net/new-email', true);
 		request.setRequestHeader("cache-control", "no-cache");
 		request.send(data);
 
