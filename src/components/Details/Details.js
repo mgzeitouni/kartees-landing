@@ -6,9 +6,9 @@ var Element    = Scroll.Element;
 export const Details = () =>  {
 
 	return (
-		<Element name="services" className="servicesElement">
+		<Element name="services" className="element">
 
-			<div className="details">
+			<div className="list">
 				<ul>
 					<li><img src="img/manage.png"/>
 

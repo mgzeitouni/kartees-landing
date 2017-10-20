@@ -1,8 +1,8 @@
-.servicesElement{
+.element{
     height:600px;
 }
 
-.details{
+.list{
 	width:100%;
 /*    float:right;
     position:relative;
@@ -12,7 +12,7 @@
 
 
 
-.details ul{
+.list ul{
 	list-style-type: none;
 	float:left;
 /*	margin:0;
@@ -21,16 +21,17 @@
 
 }
 
-.details li{
+.list li{
     display: inline;
     float:left;
     margin:6%;
+    margin-bottom:0px !important;
     display:block;
     width:20%;
 
 }
 
-.details img{
+.list img{
 	display: block;
     margin: auto;
 	height:100px;
@@ -38,6 +39,11 @@
 	margin-bottom:20px;
 }
 
-.details h4{
+.list h4{
 	text-align:center;
+}
+
+.list h5{
+    font-size:20px;
+    text-align:center;
 }
