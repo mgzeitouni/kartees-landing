@@ -24,10 +24,12 @@ class Form extends Component {
 
   	var data = new FormData();
   	data.append('email',this.state.email);
+    data.append('timestamp',new Date().getTime());
 
   	console.log(data)
   	$.ajax({
-      url: 'https://kartees-landing-page-services.mybluemix.net/new-email',
+      url:"http://localhost:5001/new-email",
+      //url: 'https://kartees-landing-page-services.mybluemix.net/new-email',
       type: 'POST',
       data: data,
       processData: false,

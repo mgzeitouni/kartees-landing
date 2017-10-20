@@ -1,29 +1,46 @@
 import './Header.css';
+import React, { Component } from 'react';
+import Scroll from 'react-scroll';
+import {Details} from '../Details/Details';
 
-var React=require('react');
+var $ = require('jquery');
+var Link  = Scroll.Link;
 
 
- export const Header = () =>  {
+class Header extends Component {
 
+
+    scroll(){
+        $('details')[0].scrollIntoView( true );
+    }
+
+    render() {
 
     return    (
-        
+                
                 <div className="header">
 
-                    <img src ="img/kartees-logo.png"/>
-                        
-                        <div className = "navbarBlock">
-                            <ul className = "navbar">
+                    <div className="header-content">
+
+                        <img src ="img/kartees-logo.png"/>
                             
-                                <li>About Us</li>
-                                {/*<li>Pricing</li>
-                                <li>Support</li>*/}
+                            <div className = "navbarBlock">
+                                <ul className = "navbar">
+                                    
+                                    <li><Link activeClass="active" to="services" spy={true} smooth={true} offset={-20} duration={500} onSetActive={this.handleSetActive}>Services</Link></li>
+                                    <li><Link activeClass="active" to="aboutus" spy={true} smooth={true} offset={-20} duration={500} onSetActive={this.handleSetActive}>About Us</Link></li>
+   
 
-                            </ul>
+                                </ul>
 
-                        </div>
+                            </div>
+                    </div>
 
                 </div>
            );
   
-}
+        }
+    }
+
+
+export default Header;

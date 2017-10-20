@@ -1,11 +1,14 @@
 import './Details.css';
-
+import Scroll from 'react-scroll';
 var React=require('react');
-
+var Element    = Scroll.Element;
 
 export const Details = () =>  {
 
-	return (<div className="details">
+	return (
+		<Element name="services" className="element">
+
+			<div className="details">
 				<ul>
 					<li><img src="img/manage.png"/>
 
@@ -26,6 +29,8 @@ export const Details = () =>  {
 
 
 				</ul>
-			</div>);
+        		
+			</div>
+			</Element>);
 
 }

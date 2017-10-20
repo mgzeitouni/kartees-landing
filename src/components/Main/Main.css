@@ -6,7 +6,6 @@
 
 .mainSection h1{
 
-	font-family: Helvetica;
 	font-size: 35px;
 	color: #515C91;
 	line-height: 74px;
@@ -15,7 +14,6 @@
 
 .mainSection h2{
 
-	font-family: Helvetica;
 	font-size: 18px;
 	color: #393939;
 	line-height: 43px;
@@ -27,7 +25,7 @@
 	background: #FFFFFF;
 /*	border: 2px solid #979797;*/
 /*	border-radius: 8px;*/
-	font-family: Helvetica;
+/*	font-family: Helvetica;*/
 	font-size: 20px;
 	color: #929292;
 	margin-right: 15px;
@@ -44,7 +42,7 @@ input:-moz-placeholder { padding-left:3%; }
 	background: #515C91; 
 	border: 1px solid #979797 !important ;
 /*	border-radius: 8px;*/
-	font-family: Helvetica;
+/*	font-family: Helvetica;*/
 	font-size: 20px;
 	color: #FFFFFF;
 }
