@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../../logo.svg';
 import './App.css';
 import '../../index.css'
 import {Header} from '../Header/Header.js';
@@ -23,13 +22,20 @@ if (process.env.VCAP_SERVICES){
 class App extends Component {
   render() {
     return (
+
+      <div>
+      <div className="background"></div>
+
       <div className = "page-wrapper">
+
           <Header/>
           <br/><br/>
           <Main/>
           <br/>
           <Details/>
-        </div>
+  
+      </div>
+      </div>
     );
   }
 }

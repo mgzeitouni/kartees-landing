@@ -1,4 +1,22 @@
 .page-wrapper {
 
   margin:5%;
+
 }
+
+.background{
+	position:absolute;
+	width:40%;
+	height:2000px;
+	background-color:#F7F7F7;
+	z-index:-1;
+	border-radius: 8px;
+    top:20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    transform:rotate(235deg);
+}
+

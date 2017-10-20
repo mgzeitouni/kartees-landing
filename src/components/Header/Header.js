@@ -15,9 +15,9 @@ var React=require('react');
                         <div className = "navbarBlock">
                             <ul className = "navbar">
                             
-                                <li>Services</li>
-                                <li>Pricing</li>
-                                <li>Support</li>
+                                <li>About Us</li>
+                                {/*<li>Pricing</li>
+                                <li>Support</li>*/}
 
                             </ul>
 

@@ -1,13 +1,13 @@
 .mainSection{
 	text-align:center;
-	width:70%;
+	width:55%;
 	margin:0 auto;
 }
 
 .mainSection h1{
 
-	font-family: .SFNSDisplay;
-	font-size: 48px;
+	font-family: Helvetica;
+	font-size: 35px;
 	color: #515C91;
 	line-height: 74px;
 
@@ -15,19 +15,20 @@
 
 .mainSection h2{
 
-	font-family: .SFNSDisplay;
-	font-size: 24px;
+	font-family: Helvetica;
+	font-size: 18px;
 	color: #393939;
 	line-height: 43px;
 }
+/* We manage your seaso: */
 
 .emailInput {
 
 	background: #FFFFFF;
-	border: 2px solid #979797;
-	border-radius: 8px;
-	font-family: .SFNSDisplay;
-	font-size: 24px;
+/*	border: 2px solid #979797;*/
+/*	border-radius: 8px;*/
+	font-family: Helvetica;
+	font-size: 20px;
 	color: #929292;
 	margin-right: 15px;
 
@@ -40,12 +41,22 @@ input:-moz-placeholder { padding-left:3%; }
 
 .mainSection button {
 
-	background: #515C91;
-	border: 2px solid #979797;
-	border-radius: 8px;
-	font-family: .SFNSDisplay;
-	font-size: 24px;
+	background: #515C91; 
+	border: 1px solid #979797 !important ;
+/*	border-radius: 8px;*/
+	font-family: Helvetica;
+	font-size: 20px;
 	color: #FFFFFF;
 }
 
+.formBox{
 
+	width:55%;
+	margin:0 auto;
+}
+
+.spinner {
+	height:40px;
+	width:40px;
+
+}
