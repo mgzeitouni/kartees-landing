@@ -21,10 +21,34 @@ if (process.env.VCAP_SERVICES){
 
 
 class App extends Component {
-  render() {
-    return (
 
-      <div>
+constructor() {
+  super();
+  this.state = {
+    width: window.innerWidth,
+  };
+}
+
+componentWillMount() {
+  window.addEventListener('resize', this.handleWindowSizeChange);
+}
+
+// make sure to remove the listener
+// when the component is not mounted anymore
+componentWillUnmount() {
+  window.removeEventListener('resize', this.handleWindowSizeChange);
+}
+
+handleWindowSizeChange = () => {
+  this.setState({ width: window.innerWidth });
+};
+
+
+
+  render() {
+
+    return (
+       <div>
       <div className="background"></div>
 
       <div className = "page-wrapper">
@@ -34,12 +58,40 @@ class App extends Component {
           <Main/>
           <br/><br/>
           <Details/>
-   
+        
           <About/>
   
       </div>
       </div>
     );
+
+  //   const { width } = this.state;
+  //   const isMobile = width <= 500;
+
+  //   if (isMobile) {
+  //   return (
+  //     <p>Heyyyyy world</p>
+  //   );
+  // } else {
+  //   return (
+  //      <div>
+  //     <div className="background"></div>
+
+  //     <div className = "page-wrapper">
+
+  //         <Header/>
+  //         <br/>
+  //         <Main/>
+  //         <br/><br/>
+  //         <Details/>
+        
+  //         <About/>
+  
+  //     </div>
+  //     </div>
+  //   );
+  // }
+
   }
 }
 

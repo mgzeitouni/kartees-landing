@@ -1,39 +1,19 @@
 .element{
-    height:400px;
+/*    height:800px;*/
+    width:80%;
+    text-align:center;
+     margin: 0 auto;
 }
+
 
 .list{
-	width:100%;
-/*    float:right;
-    position:relative;
-    left:-50%;
-    text-align:left;*/
-}
 
-
-
-.list ul{
-	list-style-type: none;
-	float:left;
-/*	margin:0;
-	position:relative;
-    left:50%;*/
-
-}
-
-.list li{
-    display: inline;
-    float:left;
-    margin:6%;
-    margin-top:10px;
-    margin-bottom:0px !important;
-    display:block;
-    width:21%;
-
+    margin: 0 auto;
 
 }
 
 .list img{
+    height:20px;
 	display: block;
     margin: auto;
 	height:100px;
@@ -55,4 +35,13 @@
     font-size:16px;
     text-align:justify;
   text-justify:center;
+}
+
+
+
+.listElement{
+    float: left;
+    margin: 20px;
+    min-width:150px;
+    max-width:20%;
 }
