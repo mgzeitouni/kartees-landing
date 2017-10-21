@@ -30,9 +30,9 @@ class App extends Component {
       <div className = "page-wrapper">
 
           <Header/>
-          <br/><br/>
-          <Main/>
           <br/>
+          <Main/>
+          <br/><br/>
           <Details/>
    
           <About/>

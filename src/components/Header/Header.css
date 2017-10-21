@@ -1,19 +1,21 @@
 .header{
 /*  margin-right:10%;*/
 
-position:fixed; 
+
 top:0px; margin:auto; 
-z-index:100000; 
+/*position:fixed; 
+z-index:100000; */
 width:100%;
-background:#F7F7F7; 
+/*background:#F7F7F7; */
 height:85px; 
-opacity:0.8;
+/*opacity:0.8;*/
 }
 
 .header-content{
   display: inline;
   vertical-align: middle;
   margin:10%;
+  margin-top:0px;
 /*  margin-left:5%;*/
 }
 
@@ -25,7 +27,7 @@ opacity:0.8;
 }
 .navbarBlock{
 
- margin-right: 30%;
+ margin-right: 10%;
  margin-top:2% !important;
  float:right;
  white-space: nowrap;

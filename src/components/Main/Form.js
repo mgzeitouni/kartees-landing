@@ -56,7 +56,7 @@ class Form extends Component {
 		 	
 		        <input className = "emailInput" type="text" placeholder = "Email" value={this.state.email} onChange={this.handleChange} />
 		       
-		        <button id="formButton" type="submit" value="Sign Up">Sign Up </button>
+		        <button className="formButton" type="submit" value="Sign Up">Sign Up </button>
 				
 				{this.state.spinner ? <img className="spinner" src="img/spinner.gif" alt="spinner"/>: null}
 		    
