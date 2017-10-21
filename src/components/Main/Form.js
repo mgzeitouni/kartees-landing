@@ -19,7 +19,7 @@ class Form extends Component {
 
   	handleSubmit(event){
   	
-  	document.getElementById("formButton").style.visibility="hidden";
+  	//document.getElementById("formButton").style.visibility="hidden";
   	this.setState({"spinner":true});
 
   	var data = new FormData();
@@ -56,7 +56,7 @@ class Form extends Component {
 		 	
 		        <input className = "emailInput" type="text" placeholder = "Email" value={this.state.email} onChange={this.handleChange} />
 		       
-		        <button className="formButton" type="submit" value="Sign Up">Sign Up </button>
+		    {!this.state.spinner ? <button className="formButton" type="submit" value="Sign Up">Sign Up </button>:null}
 				
 				{this.state.spinner ? <img className="spinner" src="img/spinner.gif" alt="spinner"/>: null}
 		    
