@@ -58,7 +58,6 @@ handleWindowSizeChange = () => {
           <Main/>
           <br/><br/>
           <Details/>
-        
           <About/>
   
       </div>

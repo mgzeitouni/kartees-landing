@@ -20,32 +20,36 @@ class Form extends Component {
   	handleSubmit(event){
   	
   	//document.getElementById("formButton").style.visibility="hidden";
-  	this.setState({"spinner":true});
+  	
+    if(this.state.email!=''){
+      this.setState({"spinner":true});
 
-  	var data = new FormData();
-  	data.append('email',this.state.email);
-    data.append('timestamp',new Date().getTime());
+    	var data = new FormData();
+    	data.append('email',this.state.email);
+      data.append('timestamp',new Date().getTime());
 
-  	console.log(data)
-  	$.ajax({
-      url:"http://localhost:5001/new-email",
-      //url: 'https://kartees-landing-page-services.mybluemix.net/new-email',
-      type: 'POST',
-      data: data,
-      processData: false,
-      contentType: false,
-      // cache: false,
-      success: function(data) {
-      	this.setState({"spinner":false});
-        this.props.handler();
-        
-      }.bind(this),
-      error: function(xhr, status, err) {
-        console.error( status, err.toString());
-      }.bind(this)
-    });
+    	console.log(data)
+    	$.ajax({
+        url:"http://localhost:5001/new-email",
+        //url: 'https://kartees-landing-page-services.mybluemix.net/new-email',
+        type: 'POST',
+        data: data,
+        processData: false,
+        contentType: false,
+        // cache: false,
+        success: function(data) {
+        	this.setState({"spinner":false});
+          this.props.handler();
+          
+        }.bind(this),
+        error: function(xhr, status, err) {
+          console.error( status, err.toString());
+        }.bind(this)
+      });
 
-    event.preventDefault();
+      event.preventDefault();
+
+    }
 
   	}
 
