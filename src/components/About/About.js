@@ -19,7 +19,7 @@ export const About = () =>  {
 					<p>As a loyal season ticket owner of the New York Mets, Morris faced the difficulties of managing his own season ticket, which led to the creation of Kartees. Prior to founding Kartees, Morris worked as a developer and consultant at IBM Watson, where he helped businesses design and deploy Artificially Intelligent solutions. Morris holds a B.S. in Industrial Engineering & Management Science from Northwestern University. </p>
 					</div>
 
-					<div className="listElement"><img src="img/joseph.jpg"/>
+					<div className="listElement"><img src="img/joseph.png"/>
 					<h4>Joseph Socarras</h4>
 					<h5>Co-Founder</h5>
 					<p>Joseph is aligned to Accenture's Oracle Analytics practice, where he serves clients in multiple functional and technical analytics delivery capacities surrounding advanced business intelligence enablement. Previously at the Miami Heat, Joseph oversaw the development of multiple machine learning tools built around proprietary statistical data. Joseph holds a B.S. in Biomedical Engineering from the University of Miami. </p>
