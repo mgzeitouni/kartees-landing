@@ -18,10 +18,8 @@ class Form extends Component {
 
 
   	handleSubmit(event){
-  	
-  	//document.getElementById("formButton").style.visibility="hidden";
-  	
-    if(this.state.email!=''){
+
+    if(this.state.email!==''){
       this.setState({"spinner":true});
 
     	var data = new FormData();

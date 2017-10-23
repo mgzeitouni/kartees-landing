@@ -2,7 +2,6 @@ import './Main.css';
 import React, { Component } from 'react';
 import SubmitMessage from './SubmitMessage';
 import Form from './Form';
-var $ = require('jquery');
 
 class Main extends Component {
 
