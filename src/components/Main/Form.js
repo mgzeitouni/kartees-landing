@@ -30,8 +30,8 @@ class Form extends Component {
 
     	console.log(data)
     	$.ajax({
-        url:"http://localhost:5001/new-email",
-        //url: 'https://kartees-landing-page-services.mybluemix.net/new-email',
+        //url:"http://localhost:5001/new-email",
+        url: 'https://kartees-landing-page-services.mybluemix.net/new-email',
         type: 'POST',
         data: data,
         processData: false,
