@@ -6,6 +6,7 @@ import Main from '../Main/Main.js'
 import {Details} from '../Details/Details.js';
 import {Demo} from '../Demo/Demo.js';
 import {About} from '../About/About.js';
+import {Pricing} from '../Pricing/Pricing.js';
 
 if (process.env.VCAP_SERVICES){
 
@@ -54,10 +55,11 @@ handleWindowSizeChange = () => {
       <div className = "page-wrapper">
 
           <Header/>
-          <br/>
+          
           <Main/>
           <br/><br/>
           <Details/>
+          <Pricing/>
           <About/>
   
       </div>

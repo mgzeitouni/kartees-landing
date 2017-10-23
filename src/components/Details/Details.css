@@ -15,6 +15,15 @@
 
 }
 
+.element h3{
+    color: #929292;
+    text-align:left;
+    width:100%;
+    opacity:0.5;
+    font-size:30px;
+ /*   margin-left:20px;*/
+}
+
 .list img{
     height:20px;
 	display: block;

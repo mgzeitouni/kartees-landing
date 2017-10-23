@@ -28,6 +28,7 @@ class Header extends Component {
                                 <ul className = "navbar">
                                     
                                     <li><Link activeClass="active" to="services" spy={true} smooth={true} offset={0} duration={500} >Services</Link></li>
+                                    <li><Link activeClass="active" to="pricing" spy={true} smooth={true} offset={0} duration={500} >Pricing</Link></li>
                                     <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={500} >About Us</Link></li>
    
 

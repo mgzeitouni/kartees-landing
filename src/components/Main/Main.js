@@ -29,7 +29,7 @@ class Main extends Component {
 					<h1>We manage your season tickets, so you can focus on your team </h1>
 
 					<h2>Kartees uses Artificial Intelligence to manage and sell your season tickets for optimal profits.
-					<br/>Enter your email address to become an early user!</h2>
+					<br/><br/>Enter your email address to become an early user!</h2>
 
 					
 					<div className="formBox">
