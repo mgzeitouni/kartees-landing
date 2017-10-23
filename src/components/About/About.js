@@ -10,7 +10,7 @@ export const About = () =>  {
 
 
 		<Element name="about" className="element">
-			<h3>About Us</h3><br/>
+	
 			<div className="list">
 
 					<div className="listElement"><img src="img/morris.png"/>

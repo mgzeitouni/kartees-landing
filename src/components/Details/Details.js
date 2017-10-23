@@ -7,7 +7,7 @@ export const Details = () =>  {
 
 	return (
 		<Element name="services" className="element">
-			<h3>Services</h3><br/>
+	
 			<div className="list">
 		
 					<div className="listElement"><img src="img/manage.png"/>
