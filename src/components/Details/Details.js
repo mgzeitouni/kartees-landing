@@ -23,7 +23,7 @@ export const Details = () =>  {
 
 					<div className="listElement"><img src="img/AI.png"/>
 					<h4>Optimize Profitability & Ticket Sales</h4>
-					<p>Our AI learns how the secondary ticket market moves. Using your team's performance and past pricing trends, Kartees will auto-adjust your ticket's prices every few minutes to ensure optimal profits.</p>
+					<p>Our AI learns how the secondary ticket market moves. Using your team's performance and past pricing trends, Kartees will automatically adjust your tickets' prices every few minutes to ensure optimal profits.</p>
 					
 					</div>
 
